@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f2e9e1"
+    tools:context=".HomePageUI">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:gravity="center"
+        android:textColor="#784841"
+        android:textSize="28dp"
+        android:fontFamily="@font/agbalumo"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="304dp"
+        android:layout_height="259dp"
+        app:srcCompat="@drawable/icon3" />
+
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="View Products"
+        android:textSize="23dp"
+        android:fontFamily="@font/autour_one"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calculate The Bill"
+        android:textSize="23dp"
+        android:fontFamily="@font/autour_one"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:text="admin page"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Logout"
+        android:textSize="23dp"
+        android:fontFamily="@font/autour_one"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

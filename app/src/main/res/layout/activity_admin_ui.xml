@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f2e9e1"
+    tools:context=".AdminUI">
+
+
+    <TextView
+        android:id="@+id/txx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#784841"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/agbalumo"
+        android:gravity="center"
+        android:text="Admin Page " />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:text="View Record "
+        android:onClick="openViewRecords"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:text="Add New Record"
+        android:onClick="openAddRecord"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:text="Delete Record"
+        android:onClick="openDeleteRecord"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:text="Update Record"
+        android:onClick="openUpdateRecord"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:text="Reset Record"
+        android:onClick="openresetRecord"/>
+
+    <TextView
+        android:id="@+id/txx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:onClick="openHomePage"
+        android:text="Back To HomePage" />
+</LinearLayout>

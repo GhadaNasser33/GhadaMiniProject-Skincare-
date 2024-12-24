@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f2e9e1"
+    tools:context=".UpdateRecord">
+
+    <EditText
+        android:id="@+id/idid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="update id" />
+
+
+    <EditText
+        android:id="@+id/efname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="update FirstName" />
+
+    <EditText
+        android:id="@+id/elname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="upadte LastName" />
+
+    <EditText
+        android:id="@+id/eemil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="update Email" />
+
+    <EditText
+        android:id="@+id/ephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="update Phone Number" />
+
+    <Button
+        android:id="@+id/updaterec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="update Record"
+        />
+
+    <TextView
+        android:id="@+id/taa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Back to Admin Page" />
+
+</LinearLayout>
