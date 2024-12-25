@@ -11,6 +11,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 public class AdminUI extends AppCompatActivity {
+    Button openview, openreset;
 
 
 
@@ -18,8 +19,16 @@ public class AdminUI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_ui);
+        openview= findViewById(R.id.view);
+        openreset= findViewById(R.id.reset);
 
-
+      openview.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              Intent s= new Intent(AdminUI.this,ViewRecord.class);
+              startActivity(s);
+          }
+      });
 
     }
     public void openAddRecord(View view) {
@@ -35,10 +44,10 @@ public class AdminUI extends AppCompatActivity {
     }
 
 
-
     public void openHomePage(View view) {
         startActivity(new Intent(this, HomePageUI.class));
     }
+
 
 }
 

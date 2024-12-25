@@ -45,8 +45,8 @@ public class AddRecord extends AppCompatActivity {
            @Override
            public void onClick(View view) {
                String id = dbRef.push().getKey();
-               Record record = new Record(id, Fname.getText().toString(), Lname.getText().toString(),
-                       phone.getText().toString(),Email.getText().toString());
+               Record record = new Record(id, Fname.getText().toString(), Email.getText().toString(),
+                       phone.getText().toString(),Lname.getText().toString());
                dbRef.child(id).setValue(record);
                Toast.makeText(AddRecord.this, "Record Added", Toast.LENGTH_LONG).show();
                return;

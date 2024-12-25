@@ -59,16 +59,19 @@ public class UpdateRecord extends AppCompatActivity {
                     return;
 
                 }
+                else {
                 Map<String, Object> updates = new HashMap<>();
-                updates.put("name", Fname);
-                updates.put("lastname",Lname);
-                updates.put("email", Email);
-                updates.put("phone", phone);
+                updates.put("name", fname);
+                updates.put("lastname",lname);
+                updates.put("email", Emil);
+                updates.put("phone", phon);
+
 
                 dbRef.child(id).updateChildren(updates)
                         .addOnSuccessListener(aVoid -> Toast.makeText(UpdateRecord.this, "Record Updated", Toast.LENGTH_SHORT).show())
                         .addOnFailureListener(e -> Toast.makeText(UpdateRecord.this, "Update Failed", Toast.LENGTH_SHORT).show());
-            }});}}
+                return;
+            }}});}}
 
 
 
